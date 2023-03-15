@@ -33,13 +33,13 @@ a = 1
 b = -3
 c = 1
 
-fourAc = mult(4,(mult(a,c)))
-expB = exp(b,2)
-BfAC = sub(expB,fourAc)
-twoA = mult(2,a)
+four_a_c = mult(4,(mult(a,c)))
+exp_b = exp(b,2)
+b_sub_four_a_c = sub(exp_b,four_a_c)
+two_a = mult(2,a)
 
-x1 = div(add(neg(b),sqrt(BfAC)),twoA) # TODO: write a code to compute the first root of the quadratic equation
-x2 = div(sub(neg(b),sqrt(BfAC)),twoA) # TODO: then do the same for the second root
+x1 = div(add(neg(b),sqrt(b_sub_four_a_c)),two_a) # TODO: write a code to compute the first root of the quadratic equation
+x2 = div(sub(neg(b),sqrt(b_sub_four_a_c)),two_a) # TODO: then do the same for the second root
 # Note: Make sure to remove the ellipsis (...) when you're writing your code
 
 print("First root:" + str(x1))
