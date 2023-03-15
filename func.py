@@ -6,11 +6,23 @@ def add(x, y):
 #       neg() should return the negation of the given number, and sqrt() should
 #       return the square root of the given number. 
 
+def sub(x, y):
+    return x - y
+
+def mult(x, y):
+    return x * y
+
+def div(x, y):
+    return x / y
+
+def exp(x, y):
+    return x ** y
+
 def neg(x):
-    ... # fill here
+    return x * -1
 
 def sqrt(x):
-    ... # fill here
+    return x **(1/2)
 
 # -------------------------------------- Task 2 -----------------------------------
 
